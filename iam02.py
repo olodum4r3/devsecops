@@ -39,4 +39,4 @@ for item in userList:
                 for key in user.access_keys.all():
                     if key.status == 'Active':
                         print(user.user_name + " deactivating key " + key.id)
-                        key.deactivate();
+                        key.deactivate()
